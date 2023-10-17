@@ -1,0 +1,36 @@
+arquivo=open('questionario.txt', 'a')
+arquivo.write('\nola, bem vindo ao questionario')
+
+class perguntas:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def getnome(self):
+        return self._nome
+
+    def getidade(self):
+        return self._idade
+
+    def setnome(self, nome):
+        self._nome = nome
+
+    def setidade(self, idade):
+        self._idade = idade 
+
+for nome in self.getnome():
+            for dado in self.getidade():
+                dados_pessoais = input(f'digite seu {dado}:')
+                arquivo.write(f'\n{dados_pessoais}')
+            print(' ')
+            arquivo.write('\n ')
+    
+
+    
+            def LerDados(self, arquivo):
+                arquivo = open(arquivo, 'r')
+
+                for linha in arquivo:
+                     print(linha, end=" ")
+
+
